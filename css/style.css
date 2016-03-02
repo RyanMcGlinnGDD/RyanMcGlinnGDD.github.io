@@ -1,0 +1,91 @@
+body{
+    background-color: #FCFFF5;
+    color: #1C6BA0;
+}
+
+header{
+    font-family: "Quicksand", Helvetica, sans-serif;   
+}
+
+h1 {
+    font-size: 40pt;
+    letter-spacing: 10px;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+#headerLeft{
+    float:left;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 300px;
+}
+
+#headerRight{
+    height: 330px;
+    
+    letter-spacing: 5px;
+}
+
+#headerPadding{
+    height: 30px;
+}
+
+a:visited{
+    color: #1C6BA0;
+}
+a:link{
+    color: #1C6BA0;
+}
+
+#content a:link{
+    text-decoration: none;
+    color: #1C6BA0;
+}
+.resumeLink{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#personalDescription{
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    clear: both;
+    line-height: 160%;
+}
+
+.showcase{
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 150px;
+    margin-bottom: 20px;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.showcaseLeft{
+    float: left;
+    margin-right: 30px;
+}
+.showcaseRight{
+    height: 150px;
+    letter-spacing: 10px;
+}
+.showcasePadding{
+    height: 25px;
+}
+
+footer{
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 12px;
+    color: darkgray;
+    text-align: center;
+}
