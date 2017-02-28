@@ -81,6 +81,8 @@ a:link{
 }
 .showcaseRight{
     height: 150px;
+}
+.showcaseText{
     letter-spacing: 10px;
 }
 .showcasePadding{
