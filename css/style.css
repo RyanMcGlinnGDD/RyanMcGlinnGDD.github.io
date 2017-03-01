@@ -72,7 +72,6 @@ a:link{
     height: 150px;
     margin-bottom: 17px;
     font-family: "Lato", Helvetica, sans-serif;
-    font-size: 26px;
 }
 
 .showcaseLeft{
@@ -81,12 +80,14 @@ a:link{
 }
 .showcaseRight{
     height: 150px;
+    font-size: 15px;
 }
 .showcaseText{
+    font-size: 26px;
     letter-spacing: 10px;
 }
 .showcasePadding{
-    height: 25px;
+    height: 15px;
 }
 
 footer{
