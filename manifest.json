@@ -1,0 +1,25 @@
+{[
+  {
+    "title": "Project 1",
+    "subtitle": "JavaScript • HTML5 Canvas",
+    "showcaseImage": "./images/showcase/meme.png",
+    "showcaseDescription": "Example description",
+    "lightboxDescription": "Example description",
+    "lightboxImage1": "./images/lightbox1/exampleImage.png",
+    "lightboxImage2": "./images/lightbox1/exampleImage.png",
+    "lightboxImage3": "./images/lightbox1/exampleImage.png",
+    "lightboxImage4": "./images/lightbox1/exampleImage.png",
+    "lightboxLinks": [
+      {
+        "title": "Website",
+        "icon": "./image/icon/resume.png",
+        "link": "www.google.com"
+      },
+      {
+        "title": "Youtube",
+        "icon": "./image/icon/youtube.png",
+        "link": "www.youtube.com"
+      }
+    ]
+  }
+]}

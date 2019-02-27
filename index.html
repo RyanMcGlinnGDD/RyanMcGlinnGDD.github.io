@@ -1,46 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>Ryan McGlinn</title>
-    <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-<body id="bodyID">
-	<div id="wrapper">
-		<header>
-            <img id="headerLeft" src="images/face.png">
-            <div id="headerRight">
-                <div id="headerPadding"></div>
-                <h1>Ryan McGlinn</h1>
-                <h2>Game Design and Development</h2>
-                <a  href="https://docs.google.com/document/d/14Vd7PjuhBTY2AajwNZsHo1TYkVLBsVOF9Xt2dT_uYNs/preview" target="_blank"><p class="resumeLink">Resume</p></a>
-                <a  href="https://github.com/RyanMcGlinnGDD" target="_blank"><p class="resumeLink">GitHub</p></a>
-                <a  href="https://www.linkedin.com/in/ryan-mcglinn-039a2688/" target="_blank"><p class="resumeLink">LinkedIn</p></a>
-            </div>
-        </header>
-		<div id="content">
-            <p id="personalDescription">I'm a graduate of RIT's Game Design and Development program and am searching for a full-time development position.<br>I have a broad range of project experience and adapt quickly to unfamiliar workflows.</p>
-            
-	    
-	    <a target="_blank" href="https://github.com/RyanMcGlinnGDD/Shanty-Prototype"><div class="showcase">
-                <img class="showcaseLeft" src="images/shanty.png">
-                <div class="showcaseRight"><div class="showcasePadding"></div><p class="showcaseText">Shanty</p><p>Android: Situational Playlist Creator</p></div>
-                </div></a>	
-	    <a target="_blank" href="http://ryanmcglinngdd.github.io/maintenance.html"><div class="showcase">
-                <img class="showcaseLeft" src="images/IPAR.png">
-                <div class="showcaseRight"><div class="showcasePadding"></div><p class="showcaseText">I.P.A.R.</p><p>Windows: Detective Narrative Adventure</p></div>
-                </div></a>
-            <a target="_blank" href="http://ryanmcglinngdd.github.io/ScrapWings/"><div class="showcase">
-                <img class="showcaseLeft" src="images/ScrapWings.png">
-                <div class="showcaseRight"><div class="showcasePadding"></div><p class="showcaseText">Scrap Wings</p><p>Web: Arena Survival Shmup</p></div>
-                </div></a>
-            <a target="_blank" href="http://ryanmcglinngdd.github.io/AudiowarpVisualizer/"><div class="showcase">
-                <img class="showcaseLeft" src="images/AudiowarpVisualizer.png">
-                <div class="showcaseRight"><div class="showcasePadding"></div><p class="showcaseText">Audiowarp</p><p>Web: Interactive Audio Visualizer</p></div>
-                </div></a>
+  <meta charset="utf-8" />
+  <title>Ryan McGlinn</title>
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/headerStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/showcaseStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/lightboxStyle.css">
+  <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS41ZEdYUgAAAUtJREFUOE+Fkb9qhTAUh9WKU6GrIB27CB1d7tgnkOvu5OBSXIRCoV2Lq0uXPoDg2qXo0Bb6HAXBSTdBBNH0nJB4o6bcA5+JcH5f/imWZS1APaiqSmDc8gukwEHsp5lloii2aZofMMoEhIlzwP5PEGNTkiS7MIdJ4p2AEGKHYfiJTVhiSAL2LbvggmNVVSSKIirA2oQWtrugn2EYbuu6/pqmiYaLoqBjlmU7ASNdCaCuNU374QKxhJDIWgC374OARdY1z/N5QRAEL47jsIi8eFh6B2VZxm3b0tVkxcMM6SvYXdc9wjEamYSH2erPPLwI6ERRLvq+fx3HkcVOxQWGYYww3kkFCPSmMgG+jud53xgGLsXMWQEeCV/I9/17sZez+oH+uGkaghIEjkR0XR9d132ClW/EXs7qBwQHIAXeEXiZtzzPjxC+EvtOWMofv7qU1dU/3KcAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="mainContent">
+    <div id="mainWrapper">
+      <header>
+        <div id="photoBox">
+          <img id="photo" src="images/face.png">
         </div>
-	</div>
+        <div id="headerContent">
+          <div id="textZone">
+            <div id="nameBox"><p>Ryan McGlinn</p></div>
+            <div id="subtitleBox"><p>Software. Games. Web.</p></div>
+          </div>
+          <div id="buttonZone">
+            <a href="https://docs.google.com/document/d/1WlYMUxUMOLnjHErbvAEcnUxodpnHijrBenv0IqEiJO0/preview" target="_blank"><div id="resumeBox" class="buttonZoneBox"><img src="./images/icon/logoResume.png"><p>Resume</p></div></a>
+            <a href="https://github.com/RyanMcGlinnGDD" target="_blank"><div id="linkedBox" class="buttonZoneBox"><img src="./images/icon/logoGithub.png"><p>GitHub</p></div></a>
+            <a href="https://www.linkedin.com/in/ryanmcglinn/" target="_blank"><div id="linkedBox" class="buttonZoneBox"><img src="./images/icon/logoLinkedin.png"><p>LinkedIn</p></div></a>
+            <a href="./images/contact.jpg" target="_blank"><div id="githubBox" class="buttonZoneBox"><img src="./images/icon/logoContact.png"><p>Contact</p></div></a>
+          </div>
+        </div>
+      </header>
+      <div id="description">
+        <p>I'm a Rochester-based developer seeking full-time employment.<br>I graduated from RIT, so I've got that going for me.</p>
+      </div>
+      <div class="projectHeader">
+        <p id="projectShowcaseText">Project Showcase (best viewed with JavaScript enabled)</p>
+      </div>
+      <div id="showcaseZone">
+        <a target="_blank" href="https://drive.google.com/folderview?id=0BzI-q-SFKR5JfkpLVWdmc3Ixa3lMNEJyZUxxdUFCRUlGaWhLS1NyUno3QUk4OFMwSDJEVVU&usp=sharing"><div class="showcase">
+          <img src="./images/showcase/IPAR.png">
+          <div>
+            <p class="showcaseTitle">X-Translate</p>
+            <p class="showcaseSubtitle">JavaScript</p>
+            <p class="showcaseInfo">Automated game localization tool</p>
+          </div>
+        </div></a>
+        <a target="_blank" href="https://drive.google.com/folderview?id=0BzI-q-SFKR5JfkpLVWdmc3Ixa3lMNEJyZUxxdUFCRUlGaWhLS1NyUno3QUk4OFMwSDJEVVU&usp=sharing"><div class="showcase">
+          <img src="./images/showcase/IPAR.png">
+          <div>
+            <p class="showcaseTitle">Hackbox Party Pack</p>
+            <p class="showcaseSubtitle">JavaScript • Electron</p>
+            <p class="showcaseInfo">Reverse-engineered content toolkit</p>
+          </div>
+        </div></a>
+        <a target="_blank" href="http://ryanmcglinngdd.github.io/ScrapWings/"><div class="showcase">
+          <img src="./images/showcase02/000.png">
+          <div>
+            <p class="showcaseTitle">SHUFFLE</p>
+            <p class="showcaseSubtitle">JavaScript • HTML5 Canvas</p>
+            <p class="showcaseInfo">Organizational member random selection application</p>
+          </div>
+        </div></a>
+        <a target="_blank" href="http://ryanmcglinngdd.github.io/ScrapWings/"><div class="showcase">
+          <img src="./images/showcase/IPAR.png">
+          <div>
+            <p class="showcaseTitle">I-CORPS</p>
+            <p class="showcaseSubtitle">JavaScript • HTML5 Canvas</p>
+            <p class="showcaseInfo">Narrative-driven adventure game framework</p>
+          </div>
+        </div></a>
+        <a target="_blank" href="https://forensic-games.csec.rit.edu/"><div class="showcase">
+          <img src="./images/showcase/IPAR.png">
+          <div>
+            <p class="showcaseTitle">I.P.A.R.</p>
+            <p class="showcaseSubtitle">C# • WPF</p>
+            <p class="showcaseInfo">Module-based training application</p>
+          </div>
+        </div></a>
+      </div>
+      <footer>
+        <p id="footerText">Ryan McGlinn 2019</p>
+      </footer>
+    </div>
+  </div>
+  <div id="lightboxLayer" class="hiddenLayer">
+    <div id="lightboxBlinder">
+    </div>
+    <div id="lightboxHorizontalBounds">
+      <div id="lightboxVerticalBounds">
+        <div id="lightboxXButton"><p>close</p><p id="xText">x</p></div>
+        <div id="lightboxDisplaceMargin">
+          <div id="lightboxContent">
+
+            <p id="lightboxTitle">Title</p>
+            <div id="lightboxInnerContent">
+              <div id="lightboxFeature">
+                <div id="lightboxThumbs">
+                  <div><img id="lightboxThumb1" class="selectedThumbnail" src="./images/lightbox1/exampleFeature.png"></div>
+                  <div><img id="lightboxThumb2" class="unselectedThumbnail" src="./images/lightbox1/exampleFeature.png"></div>
+                  <div><img id="lightboxThumb3" class="unselectedThumbnail" src="./images/lightbox1/exampleFeature.png"></div>
+                  <div><img id="lightboxThumb4" class="unselectedThumbnail" src="./images/lightbox1/exampleFeature.png"></div>
+                </div>
+                <a id="lightboxImageLink" href="#" target="_blank"><img id="lightboxImage" src="./images/lightbox1/exampleFeature.png"></a>
+              </div>
+              <div id="lightboxButtonZone">
+                <a href="https://forensic-games.csec.rit.edu/" target="_blank"><div class="lightboxButton"><img src="./images/icon/logoResume.png"><p>Website</p></div></a>
+                <a href="https://www.youtube.com/watch?v=Oq8GtXyUz1A" target="_blank"><div class="lightboxButton"><img src="./images/icon/logoResume.png"><p>Youtube</p></div></a>
+              </div>
+              <p id="lightboxSubtitle">C# - .NET - JavaScript</p>
+              <p id="lightboxDescription">This should never be visible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,0 +1,68 @@
+.projectHeader {
+  box-sizing: border-box;
+  background-color: rgba(10,10,10,.6);
+  overflow: hidden;
+  font-family: "Lato", Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+.projectHeader p{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.showcase {
+  margin-Bottom: 12px;
+  box-sizing: border-box;
+  background-color: ghostwhite;
+  overflow: hidden;
+  border: 2px solid rgba(10,10,10,.6);;
+  font-family: "Lato", Helvetica, sans-serif;
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+.showcase:hover{
+    border-color: rgb(66, 134, 244);
+    color: rgb(66, 134, 244);
+}
+.showcase:hover img{
+    outline: 2px solid rgb(66, 134, 244);
+}
+.showcase p {
+    margin: 0;
+}
+.showcase img {
+    float: left;
+    width: 35%;
+    outline: 2px solid darkgray;
+}
+.showcase div {
+    width: 62%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.showcase .showcaseTitle{
+    width: 100%;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.showcase .showcaseSubtitle{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.showcase .showcaseInfo{
+    width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

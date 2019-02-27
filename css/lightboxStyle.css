@@ -1,0 +1,166 @@
+#lightboxLayer{
+  -webkit-transition: opacity .1s linear;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+#lightboxBlinder{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#lightboxHorizontalBounds{
+    width: 910px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+#lightboxVerticalBounds{
+    max-height: 85vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#lightboxXButton{
+    position: absolute;
+    height: 5vh;
+    color: white;
+    top: -4vh;
+    right: .5vh;
+    letter-spacing: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+#lightboxXButton p{
+    float: left;
+    line-height: 5vh;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#xText{
+    font-size: 16pt;
+}
+#lightboxXButton:hover{
+    color: rgb(66, 134, 244);
+    text-shadow: 0 0 3px white;
+}
+
+#lightboxDisplaceMargin{
+    margin-right: 15px;
+    max-height: 85vh;
+    outline: 2px solid darkgray;
+    overflow-y: auto;
+}
+
+#lightboxTitle{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(62,62,62);
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 26px;
+}
+#lightboxContent{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    user-select: none;
+}
+
+
+#lightboxFeature{
+    
+}
+#lightboxThumbs{
+    padding-right: 10px;
+    float: left;
+    width: 18.5%;
+    cursor: pointer;
+}
+#lightboxThumbs img{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+#lightboxImage{
+    float: left;
+    width: 80.2%;
+    margin-bottom: 10px;
+    outline: 2px solid darkgray;
+}
+.selectedThumbnail{
+    outline: 4px solid rgb(66, 134, 244);
+}
+.unselectedThumbnail{
+    outline: 2px solid darkgray;
+}
+
+#lightboxButtonZone {
+    width: 100%;
+    height: 30px;
+    clear: both;
+}
+.lightboxButton {
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    cursor: pointer;
+    outline: 2px solid darkgray;
+}
+.lightboxButton:hover{
+    outline: 2px solid rgb(66, 134, 244);
+}
+.lightboxButton:hover p {
+    color: rgb(66, 134, 244);
+}
+.lightboxButton:hover img{
+    outline: 1px solid rgb(66, 134, 244);
+}
+.lightboxButton img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    float: left;
+    outline: 1px solid darkgray;
+}
+.lightboxButton p {
+    float: left;
+    line-height: 30px;
+    font-size: 15pt;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#lightboxSubtitle{
+    margin-top: 6px;
+    color: rgb(62,62,62);
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+#lightboxDescription{
+    margin-top: 3px;
+    color: rgb(62,62,62);
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    font-size: 14pt;
+}
